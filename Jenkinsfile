@@ -20,7 +20,8 @@ node
  
  stage("Build")
  {
- sh "${mavenHome}/bin/mvn clean package"
+ sh "ls"
+ sh "mvn clean package"
  }
  
   /*
